@@ -35,6 +35,8 @@ ul {
   background-color: var(--primary-color-second);
   color: var(--primary-color-first);
   cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .button:hover {
