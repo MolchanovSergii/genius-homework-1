@@ -3,33 +3,32 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
-    url("../fonts/roboto-v30-latin-regular.ttf") format("truetype");
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
   font-family: "Roboto";
-  font-style: normal;
+  font-style: italic;
   font-weight: 700;
-  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
-    url("../fonts/roboto-v30-latin-700.ttf") format("truetype");
+  src: url("../fonts/roboto-v30-cyrillic_latin-700italic.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-700italic.ttf") format("truetype");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Play";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2"),
-    url("../fonts/play-v19-latin-regular.ttf") format("truetype");
+  src: url("../fonts/play-v19-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-regular.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
   font-family: "Play";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/play-v19-latin-700.woff2") format("woff2"),
-    url("../fonts/play-v19-latin-700.ttf") format("truetype");
+  src: url("../fonts/play-v19-cyrillic_latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-700.ttf") format("truetype");
 }
 
 :root {
@@ -42,9 +41,23 @@
   --secondary-color-fourth: #ffd02b;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 body {
   color: var(--primary-color-third);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-weight: 400;
 }
 
@@ -87,7 +100,7 @@ address {
 
 .section-title {
   text-align: center;
-  font-family: "Play", sans-serif;
+  font-family: "Play";
   font-size: 64px;
   font-weight: 700;
 }
@@ -105,7 +118,7 @@ address {
 }
 
 .hero-name {
-  font-family: "Play", sans-serif;
+  font-family: "Play";
   font-size: 140px;
   font-weight: 700;
   line-height: 0.8; /* 81.429% */
@@ -159,3 +172,5 @@ footer .link {
   color: var(--secondary-color-second);
   font-size: 13px;
 }
+
+
